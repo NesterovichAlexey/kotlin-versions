@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/android-library" name="android-library">
+                <projects>
+                  <project path="$PROJECT_DIR$/android-library" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/android-library-test" name="android-library-test">
+                <projects>
+                  <project path="$PROJECT_DIR$/android-library-test" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/kotlin-library" name="kotlin-library">
+                <projects>
+                  <project path="$PROJECT_DIR$/kotlin-library" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/kotlin-library-test" name="kotlin-library-test">
+                <projects>
+                  <project path="$PROJECT_DIR$/kotlin-library-test" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="15" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android-library" />
+            <option value="$PROJECT_DIR$/android-library-test" />
+            <option value="$PROJECT_DIR$/kotlin-library" />
+            <option value="$PROJECT_DIR$/kotlin-library-test" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
